@@ -73,6 +73,7 @@ fn process_thread(thread_result: Result<i8, Box<dyn Any + Send>>, name: &str) {
     }
 }
 
+// How to run: cargo run sell monolithai 26 23.4
 fn main() {
     let args: Vec<String> = env::args().collect();
 
